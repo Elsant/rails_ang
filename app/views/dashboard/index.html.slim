@@ -1,0 +1,6 @@
+h1 Welcome to Ruby on Rails, #{current_user.email} !
+
+h2 Rails version #{Rails.version}
+section
+  p Here is text
+  = link_to "Log Out", destroy_user_session_path, method: :delete
